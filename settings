@@ -1,0 +1,11 @@
+--- 
+
+This file serves for VSCode file nesting option in Stackblitz
+
+- package.json | package-lock.json, yarn.lock, pnpm-lock.yaml, vscode.tailwind.json, vercel.json, tsconfig.json, tailwind.config.cjs, sandbox.config.json, netlify.toml, astro.config.mjs
+- .env | .editorconfig, .eslintignore, .eslintrc.js, .gitignore, .npmrc, .prettierignore, .prettierrc.js, .stackblitzrc
+
+settings | .env, package.json
+
+---
+

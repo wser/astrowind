@@ -1,11 +1,15 @@
---- 
+This file serves for VSCode settings file nesting option in Stackblitz - aka mask file
 
-This file serves for VSCode file nesting option in Stackblitz
+In VSCode settings>search file nesting> add:
 
-- package.json | package-lock.json, yarn.lock, pnpm-lock.yaml, vscode.tailwind.json, vercel.json, tsconfig.json, tailwind.config.cjs, sandbox.config.json, netlify.toml, astro.config.mjs
-- .env | .editorconfig, .eslintignore, .eslintrc.js, .gitignore, .npmrc, .prettierignore, .prettierrc.js, .stackblitzrc
+package.json | package-lock.json, yarn.lock, pnpm-lock.yaml, vscode.tailwind.json, vercel.json, tsconfig.json, tailwind.config.cjs, sandbox.config.json, netlify.toml, astro.config.mjs
+
+.env | .editorconfig, .eslintignore, .eslintrc.js, .gitignore, .npmrc, .prettierignore, .prettierrc.js, .stackblitzrc
 
 settings | .env, package.json
 
----
 
+Add to Files:Exclude
+node_modules
+.astro
+.vscode
